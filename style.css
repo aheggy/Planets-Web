@@ -1,0 +1,36 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(5, 4, 4);
+    color: wheat;
+
+}
+li {
+    list-style: none;
+}
+
+.planet-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.planet-card {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ccc;
+    border-radius: 16px;
+    padding: 16px;
+    margin: 16px;
+}
+
+.planet-card > p {
+    margin: 0;
+    width: 300px;
+}
+
+.planet-card > h3 {
+    font-size: 1.5em;
+}
